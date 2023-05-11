@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "cabin-bold", Arial, Helvetica, sans-serif;
+    src: url('cabin-bold-webfont.woff') format('woff');
+    src: url('cabin-bold-webfont.eot');
+    src: url('cabin-bold-webfont.ttf') format('truetype');
+    src: url('cabin-bold-webfont.svg');
+}
+
+@font-face {
+    font-family: "cabin-medium";
+    src: url('cabin-medium-webfont.woff') format('woff');
+    src: url('cabin-medium-webfont.eot');
+    src: url('cabin-medium-webfont.ttf') format('truetype');
+    src: url('cabin-medium-webfont.svg');
+}
+
+@font-face {
+    font-family: "cabin-regular";
+    src: url('cabin-regular-webfont.woff') format('woff');
+    src: url('cabin-regular-webfont.eot');
+    src: url('cabin-regular-webfont.ttf') format('truetype');
+    src: url('cabin-regular-webfont.svg');
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #f2f0f0;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(5,72px);
+        grid-column-gap: 16px;
+        padding-left: 0;
+        padding-right: 0;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #eb7602;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+    padding-left: 10px;
+    text-overflow: clip;
+}
+
+b {
+    font-weight: bold;
+    color: #eb7602;
+}
+
+.textarticle {
+    display: grid;
+    grid-column: 1/-1;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+
+.imagearticle {
+    display: grid;
+    grid-template-columns: repeat(5, 160px);
+    grid-column-gap: 70px;
+    grid-column: 1/-1;
+}
+
+#bw-runners {
+    width: 400px;
+    height: auto;
+}
+
+#environment {
+    width: 400px;
+    height: auto;
+    grid-column: 1/-1;
+}
